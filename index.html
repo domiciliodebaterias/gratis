@@ -4,18 +4,37 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description"
-        content="Baterías a domicilio en Medellín. Batería carro Medellín con instalación gratis. Llegamos en 30 minutos. Servicio 24/7 en Envigado, Itagüí y todo el Valle de Aburrá.">
-    <meta name="keywords" content="baterías a domicilio, batería carro Medellín, baterías express">
-    <meta name="robots" content="index, follow">
-    <title>Baterías a Domicilio en Medellín | Batería Carro - Llegamos en 30 Min</title>
     <base target="_blank">
-    <link rel="icon" type="image/png" sizes="32x32" href="imagenes/favicon32x32.png">
+
+    <!-- SEO Meta Tags -->
+    <title>Baterías a Domicilio Medellín | Batería Carro 30 Min | Baterías Express</title>
+    <meta name="description"
+        content="🔋 Baterías a domicilio en Medellín. Batería carro Medellín con instalación GRATIS. Llegamos en 30 minutos. MAC, Willard, Varta. ¡Llama ya! 📞">
+    <meta name="keywords"
+        content="baterías a domicilio, batería carro Medellín, baterías express, cambio batería domicilio, batería auto Medellín">
+    <meta name="robots" content="index, follow">
+    <meta name="author" content="Baterías Express">
+
+    <!-- Open Graph -->
+    <meta property="og:title" content="Baterías a Domicilio Medellín | 30 Minutos | Instalación Gratis">
+    <meta property="og:description"
+        content="Servicio de baterías a domicilio 24/7. Llegamos en 30 minutos con instalación gratis.">
+    <meta property="og:type" content="website">
+    <meta property="og:locale" content="es_CO">
+
+    <!-- Preconnect para performance -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700;800&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700;800;900&display=swap" rel="stylesheet">
+
+    <!-- Favicon -->
+    <link rel="icon" type="image/png" href="imagenes/favicon32x32.png">
+
+    <!-- Stylesheet -->
     <link rel="stylesheet" href="styles.css">
 
+    <!-- Preload critical resources -->
+    <link rel="preload" as="image" href="imagenes/bateria_expres.webp">
     <!-- Meta Pixel Code -->
     <script>
         !function (f, b, e, v, n, t, s) {
@@ -37,241 +56,719 @@
     <!-- End Meta Pixel Code -->
     <script src="https://css.lightapi.co/static/tracker.js"></script>
     <!-- Google Tag Manager -->
-    <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
-    new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
-    j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
-    'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
-    })(window,document,'script','dataLayer','GTM-TRHMRPJ5');</script>
+    <script>(function (w, d, s, l, i) {
+            w[l] = w[l] || []; w[l].push({
+                'gtm.start':
+                    new Date().getTime(), event: 'gtm.js'
+            }); var f = d.getElementsByTagName(s)[0],
+                j = d.createElement(s), dl = l != 'dataLayer' ? '&l=' + l : ''; j.async = true; j.src =
+                    'https://www.googletagmanager.com/gtm.js?id=' + i + dl; f.parentNode.insertBefore(j, f);
+        })(window, document, 'script', 'dataLayer', 'GTM-WR8FSHBS');</script>
     <!-- End Google Tag Manager -->
 </head>
 
 <body>
     <!-- Google Tag Manager (noscript) -->
-    <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-TRHMRPJ5"
-    height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+    <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-WR8FSHBS" height="0" width="0"
+            style="display:none;visibility:hidden"></iframe></noscript>
     <!-- End Google Tag Manager (noscript) -->
+
+    <!-- ==================== HEADER STICKY ==================== -->
     <header class="header" id="header">
-        <div class="container header-content">
-            <a href="#" class="logo" target="_self" aria-label="Baterías Express - Inicio">
-                <img src="imagenes/bateria_expres.webp" alt="Baterías Express Logo" width="140" height="40">
+        <div class="container header__container">
+            <a href="#" class="header__logo" target="_self">
+                <img src="imagenes/bateria_expres.webp" alt="Baterías Express Logo" width="150" height="45">
             </a>
-            <div class="header-actions">
-                <a href="https://tinyurl.com/3essvphe?text=Hola!!!+%2ABaterias+thomas%2A.+Necesito+información"
-                    class="btn btn-whatsapp btn-header" aria-label="Contactar por WhatsApp">
-                    <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor">
+            <nav class="header__nav">
+                <a href="https://tinyurl.com/43vrm9dv?text=Hola!!!+%2ABaterias+thomas%2A.+Necesito+información+sobre+baterías"
+                    class="btn btn--whatsapp btn--sm" aria-label="Contactar por WhatsApp">
+                    <svg class="btn__icon" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true">
                         <path
                             d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z" />
                     </svg>
-                    <span>WhatsApp</span>
+                    WhatsApp
                 </a>
-                <a href="https://tinyurl.com/bddsmcts" class="btn btn-call btn-header" aria-label="Llamar ahora">
-                    <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor">
+                <a href="https://tinyurl.com/yxa2h3fr" class="btn btn--call btn--sm" aria-label="Llamar ahora">
+                    <svg class="btn__icon" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true">
                         <path
-                            d="M20.01 15.38c-1.23 0-2.42-.2-3.53-.56a.977.977 0 00-1.01.24l-1.57 1.97c-2.83-1.35-5.48-3.9-6.89-6.83l1.95-1.66c.27-.28.35-.67.24-1.02-.37-1.11-.56-2.3-.56-3.53 0-.54-.45-.99-.99-.99H4.19C3.65 3 3 3.24 3 3.99 3 13.28 10.73 21 20.01 21c.71 0 .99-.63.99-1.18v-3.45c0-.54-.45-.99-.99-.99z" />
+                            d="M6.62 10.79c1.44 2.83 3.76 5.14 6.59 6.59l2.2-2.2c.27-.27.67-.36 1.02-.24 1.12.37 2.33.57 3.57.57.55 0 1 .45 1 1V20c0 .55-.45 1-1 1-9.39 0-17-7.61-17-17 0-.55.45-1 1-1h3.5c.55 0 1 .45 1 1 0 1.25.2 2.45.57 3.57.11.35.03.74-.25 1.02l-2.2 2.2z" />
                     </svg>
-                    <span>Llamar</span>
+                    Llamar
                 </a>
-            </div>
+            </nav>
         </div>
     </header>
+
     <main>
+        <!-- ==================== HERO SECTION ==================== -->
         <section class="hero" id="hero">
-            <div class="hero-overlay"></div>
-            <div class="container hero-content">
-                <h1 class="hero-title">¿Sin Batería? ¿Tu Carro No Enciende?</h1>
-                <h2 class="hero-subtitle">Baterías De Carro a Domicilio en Medellín, Envigado, Itagüí y todo el Valle de
-                    Aburrá. <strong>Llegamos en 30 minutos. Domocilio e Instalación Gratis.</strong></h2>
-                <div class="hero-ctas">
-                    <a href="https://tinyurl.com/3essvphe?text=Hola!!!+%2ABaterias+thomas%2A.+Necesito+una+batería+urgente"
-                        class="btn btn-whatsapp btn-giant" aria-label="Pedir batería por WhatsApp">
-                        <svg width="28" height="28" viewBox="0 0 24 24" fill="currentColor">
-                            <path
-                                d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z" />
-                        </svg>
-                        Pedir por WhatsApp
-                    </a>
-                    <a href="https://tinyurl.com/bddsmcts" class="btn btn-call btn-giant"
-                        aria-label="Llamar ahora para pedir batería">
-                        <svg width="28" height="28" viewBox="0 0 24 24" fill="currentColor">
-                            <path
-                                d="M20.01 15.38c-1.23 0-2.42-.2-3.53-.56a.977.977 0 00-1.01.24l-1.57 1.97c-2.83-1.35-5.48-3.9-6.89-6.83l1.95-1.66c.27-.28.35-.67.24-1.02-.37-1.11-.56-2.3-.56-3.53 0-.54-.45-.99-.99-.99H4.19C3.65 3 3 3.24 3 3.99 3 13.28 10.73 21 20.01 21c.71 0 .99-.63.99-1.18v-3.45c0-.54-.45-.99-.99-.99z" />
-                        </svg>
-                        Llamar Ahora
-                    </a>
+            <div class="hero__overlay"></div>
+            <div class="container hero__container">
+                <div class="hero__content">
+                    <span class="hero__badge">🚗 Servicio 24/7 • Llegamos en 30 Min</span>
+                    <h1 class="hero__title">¿Sin Batería? ¿Tu carro no Enciende?</h1>
+                    <h2 class="hero__subtitle">
+                        Baterías De Carro a Domicilio en <strong>Medellín, Envigado, Itagüí</strong> y todo el Valle de
+                        Aburrá.
+                        <span class="hero__highlight">Llegamos en 30 minutos. Instalación Gratis.</span>
+                    </h2>
+                    <p class="hero__services">🔋 Recarga y Reinicio de Baterías • Venta para Todo Tipo de Vehículo •
+                        <strong>Escríbenos al WhatsApp para Cotizar</strong>
+                    </p>
+                    <div class="hero__ctas">
+                        <a href="https://tinyurl.com/43vrm9dv?text=Hola!!!+%2ABaterias+thomas%2A.+Necesito+una+batería+urgente"
+                            class="btn btn--whatsapp btn--xl" aria-label="Pedir batería por WhatsApp">
+                            <svg class="btn__icon" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true">
+                                <path
+                                    d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z" />
+                            </svg>
+                            Pedir por WhatsApp
+                        </a>
+                        <a href="https://tinyurl.com/yxa2h3fr" class="btn btn--call btn--xl"
+                            aria-label="Llamar ahora para pedir batería">
+                            <svg class="btn__icon" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true">
+                                <path
+                                    d="M6.62 10.79c1.44 2.83 3.76 5.14 6.59 6.59l2.2-2.2c.27-.27.67-.36 1.02-.24 1.12.37 2.33.57 3.57.57.55 0 1 .45 1 1V20c0 .55-.45 1-1 1-9.39 0-17-7.61-17-17 0-.55.45-1 1-1h3.5c.55 0 1 .45 1 1 0 1.25.2 2.45.57 3.57.11.35.03.74-.25 1.02l-2.2 2.2z" />
+                            </svg>
+                            Llamar Ahora
+                        </a>
+                    </div>
+                    <p class="hero__urgency">⚡ +500 clientes atendidos este mes</p>
                 </div>
-                <div class="hero-badge"><span class="pulse"></span>Servicio disponible 24/7</div>
+                <div class="hero__image">
+                    <img src="imagenes/bateria_expres.webp" alt="Batería de carro a domicilio Medellín" width="500"
+                        height="400">
+                </div>
             </div>
         </section>
-        <section class="trust-bar">
+
+        <!-- ==================== BARRA DE CONFIANZA ==================== -->
+        <section class="trust-bar" aria-label="Beneficios del servicio">
             <div class="container">
-                <div class="trust-items">
-                    <div class="trust-item">
-                        <svg width="32" height="32" viewBox="0 0 24 24" fill="currentColor">
-                            <path
-                                d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm-2 15l-5-5 1.41-1.41L10 14.17l7.59-7.59L19 8l-9 9z" />
-                        </svg>
-                        <span>Instalación Gratis</span>
-                    </div>
-                    <div class="trust-item">
-                        <svg width="32" height="32" viewBox="0 0 24 24" fill="currentColor">
-                            <path
-                                d="M12 1L3 5v6c0 5.55 3.84 10.74 9 12 5.16-1.26 9-6.45 9-12V5l-9-4zm0 10.99h7c-.53 4.12-3.28 7.79-7 8.94V12H5V6.3l7-3.11v8.8z" />
-                        </svg>
-                        <span>Garantía Incluida</span>
-                    </div>
-                    <div class="trust-item">
-                        <svg width="32" height="32" viewBox="0 0 24 24" fill="currentColor">
-                            <path
-                                d="M11.8 10.9c-2.27-.59-3-1.2-3-2.15 0-1.09 1.01-1.85 2.7-1.85 1.78 0 2.44.85 2.5 2.1h2.21c-.07-1.72-1.12-3.3-3.21-3.81V3h-3v2.16c-1.94.42-3.5 1.68-3.5 3.61 0 2.31 1.91 3.46 4.7 4.13 2.5.6 3 1.48 3 2.41 0 .69-.49 1.79-2.7 1.79-2.06 0-2.87-.92-2.98-2.1h-2.2c.12 2.19 1.76 3.42 3.68 3.83V21h3v-2.15c1.95-.37 3.5-1.5 3.5-3.55 0-2.84-2.43-3.81-4.7-4.4z" />
-                        </svg>
-                        <span>Pago Contra Entrega</span>
-                    </div>
-                </div>
+                <ul class="trust-bar__list">
+                    <li class="trust-bar__item">
+                        <div class="trust-bar__icon">🔧</div>
+                        <span class="trust-bar__text">Instalación <strong>GRATIS</strong></span>
+                    </li>
+                    <li class="trust-bar__item">
+                        <div class="trust-bar__icon">🛡️</div>
+                        <span class="trust-bar__text">Garantía <strong>12-24 Meses</strong></span>
+                    </li>
+                    <li class="trust-bar__item">
+                        <div class="trust-bar__icon">💳</div>
+                        <span class="trust-bar__text">Pago <strong>Contra Entrega</strong></span>
+                    </li>
+                    <li class="trust-bar__item">
+                        <div class="trust-bar__icon">⏰</div>
+                        <span class="trust-bar__text">Servicio <strong>24/7</strong></span>
+                    </li>
+                </ul>
             </div>
         </section>
+
+        <!-- ==================== CATÁLOGO DE SERVICIOS ==================== -->
         <section class="services" id="servicios">
             <div class="container">
-                <h2 class="section-title">Nuestros Servicios</h2>
-                <p class="section-subtitle">Baterías para todo tipo de vehículos</p>
-                <div class="services-grid">
-                    <div class="service-card">
-                        <div class="service-icon">🚗</div>
-                        <h3>Autos</h3>
-                        <p>Baterías para sedanes, hatchbacks y compactos.</p>
-                        <a href="https://tinyurl.com/3essvphe?text=Hola!!!+%2ABaterias+thomas%2A.+Necesito+cotizar+batería+para+auto"
-                            class="btn btn-outline" aria-label="Cotizar batería auto">Cotizar</a>
-                    </div>
-                    <div class="service-card">
-                        <div class="service-icon">🚙</div>
-                        <h3>Camionetas</h3>
-                        <p>Baterías de alta potencia para SUVs y pickups.</p>
-                        <a href="https://tinyurl.com/3essvphe?text=Hola!!!+%2ABaterias+thomas%2A.+Necesito+cotizar+batería+para+camioneta"
-                            class="btn btn-outline" aria-label="Cotizar batería camioneta">Cotizar</a>
-                    </div>
-                    <div class="service-card">
-                        <div class="service-icon">🚚</div>
-                        <h3>Camiones</h3>
-                        <p>Baterías industriales para carga pesada.</p>
-                        <a href="https://tinyurl.com/3essvphe?text=Hola!!!+%2ABaterias+thomas%2A.+Necesito+cotizar+batería+para+camión"
-                            class="btn btn-outline" aria-label="Cotizar batería camión">Cotizar</a>
-                    </div>
-                    <div class="service-card">
-                        <div class="service-icon">🏍️</div>
-                        <h3>Motos</h3>
-                        <p>Baterías para motocicletas de todas las cilindradas.</p>
-                        <a href="https://tinyurl.com/3essvphe?text=Hola!!!+%2ABaterias+thomas%2A.+Necesito+cotizar+batería+para+moto"
-                            class="btn btn-outline" aria-label="Cotizar batería moto">Cotizar</a>
-                    </div>
+                <header class="section-header">
+                    <h2 class="section-title">Baterías para Todo Tipo de Vehículo</h2>
+                    <p class="section-subtitle">Selecciona tu vehículo y cotiza en segundos</p>
+                </header>
+                <div class="services__grid">
+                    <!-- Autos -->
+                    <article class="service-card">
+                        <div class="service-card__image">
+                            <img src="imagenes/bateria_expres.webp" alt="Baterías para autos" width="300" height="200"
+                                loading="lazy">
+                        </div>
+                        <div class="service-card__content">
+                            <h3 class="service-card__title">🚗 Autos</h3>
+                            <p class="service-card__desc">Baterías para Chevrolet, Renault, Mazda, Kia, Hyundai y más.
+                            </p>
+                            <span class="service-card__price">Baterías <strong>Premium</strong></span>
+                            <a href="https://tinyurl.com/43vrm9dv?text=Hola!!!+%2ABaterias+thomas%2A.+Necesito+una+batería+para+mi+AUTO"
+                                class="btn btn--whatsapp btn--md" aria-label="Cotizar batería para auto">
+                                Cotizar Ahora
+                            </a>
+                        </div>
+                    </article>
+                    <!-- Camionetas -->
+                    <article class="service-card">
+                        <div class="service-card__image">
+                            <img src="imagenes/bateria_expres.webp" alt="Baterías para camionetas" width="300"
+                                height="200" loading="lazy">
+                        </div>
+                        <div class="service-card__content">
+                            <h3 class="service-card__title">🚙 Camionetas</h3>
+                            <p class="service-card__desc">Baterías de alta capacidad para SUV y camionetas 4x4.</p>
+                            <span class="service-card__price">Baterías <strong>Premium</strong></span>
+                            <a href="https://tinyurl.com/43vrm9dv?text=Hola!!!+%2ABaterias+thomas%2A.+Necesito+una+batería+para+mi+CAMIONETA"
+                                class="btn btn--whatsapp btn--md" aria-label="Cotizar batería para camioneta">
+                                Cotizar Ahora
+                            </a>
+                        </div>
+                    </article>
+                    <!-- Camiones -->
+                    <article class="service-card">
+                        <div class="service-card__image">
+                            <img src="imagenes/bateria_expres.webp" alt="Baterías para camiones" width="300"
+                                height="200" loading="lazy">
+                        </div>
+                        <div class="service-card__content">
+                            <h3 class="service-card__title">🚛 Camiones</h3>
+                            <p class="service-card__desc">Baterías pesadas para transporte y vehículos comerciales.</p>
+                            <span class="service-card__price">Baterías <strong>Premium</strong></span>
+                            <a href="https://tinyurl.com/43vrm9dv?text=Hola!!!+%2ABaterias+thomas%2A.+Necesito+una+batería+para+mi+CAMIÓN"
+                                class="btn btn--whatsapp btn--md" aria-label="Cotizar batería para camión">
+                                Cotizar Ahora
+                            </a>
+                        </div>
+                    </article>
+                    <!-- Motos -->
+                    <article class="service-card">
+                        <div class="service-card__image">
+                            <img src="imagenes/bateria_expres.webp" alt="Baterías para motos" width="300" height="200"
+                                loading="lazy">
+                        </div>
+                        <div class="service-card__content">
+                            <h3 class="service-card__title">🏍️ Motos</h3>
+                            <p class="service-card__desc">Baterías para todo tipo de motocicletas y scooters.</p>
+                            <span class="service-card__price">Baterías <strong>Premium</strong></span>
+                            <a href="https://tinyurl.com/43vrm9dv?text=Hola!!!+%2ABaterias+thomas%2A.+Necesito+una+batería+para+mi+MOTO"
+                                class="btn btn--whatsapp btn--md" aria-label="Cotizar batería para moto">
+                                Cotizar Ahora
+                            </a>
+                        </div>
+                    </article>
                 </div>
             </div>
         </section>
-        <section class="brands" id="marcas">
+
+        <!-- ==================== MARCAS ==================== -->
+        <section class="brands" id="marcas" aria-label="Marcas de baterías disponibles">
             <div class="container">
-                <h2 class="section-title">Marcas de Confianza</h2>
-                <div class="brands-grid">
-                    <div class="brand-item brand-text">MAC</div>
-                    <div class="brand-item brand-text">Duncan</div>
-                    <div class="brand-item brand-text">Varta</div>
-                    <div class="brand-item brand-text">Willard</div>
-                    <div class="brand-item brand-text">AC Delco</div>
-                    <div class="brand-item brand-text">Bosch</div>
+                <header class="section-header">
+                    <h2 class="section-title">Trabajamos con las Mejores Marcas</h2>
+                    <p class="section-subtitle">Distribuidor autorizado - Garantía de fábrica</p>
+                </header>
+                <div class="brands__grid">
+                    <div class="brand-logo">
+                        <img src="imagenes/mac_bateria_medellin.webp" alt="Baterías MAC" width="120" height="60"
+                            loading="lazy">
+                    </div>
+                    <div class="brand-logo">
+                        <img src="imagenes/mac_bateria_medellin.webp" alt="Baterías Duncan" width="120" height="60"
+                            loading="lazy">
+                    </div>
+                    <div class="brand-logo">
+                        <img src="imagenes/mac_bateria_medellin.webp" alt="Baterías Varta" width="120" height="60"
+                            loading="lazy">
+                    </div>
+                    <div class="brand-logo">
+                        <img src="imagenes/mac_bateria_medellin.webp" alt="Baterías Willard" width="120" height="60"
+                            loading="lazy">
+                    </div>
+                    <div class="brand-logo">
+                        <img src="imagenes/mac_bateria_medellin.webp" alt="Baterías AC Delco" width="120" height="60"
+                            loading="lazy">
+                    </div>
+                    <div class="brand-logo">
+                        <img src="imagenes/mac_bateria_medellin.webp" alt="Baterías Bosch" width="120" height="60"
+                            loading="lazy">
+                    </div>
                 </div>
             </div>
         </section>
+
+        <!-- ==================== ZONA DE COBERTURA ==================== -->
         <section class="coverage" id="cobertura">
             <div class="container">
-                <h2 class="section-title">Zona de Cobertura</h2>
-                <p class="section-subtitle">Servicio a domicilio en todo el Valle de Aburrá</p>
-                <div class="coverage-badges">
-                    <span class="coverage-badge">Medellín</span>
-                    <span class="coverage-badge">Envigado</span>
-                    <span class="coverage-badge">Sabaneta</span>
-                    <span class="coverage-badge">Itagüí</span>
-                    <span class="coverage-badge">Bello</span>
-                    <span class="coverage-badge">La Estrella</span>
-                    <span class="coverage-badge">Caldas</span>
-                    <span class="coverage-badge">Copacabana</span>
+                <header class="section-header">
+                    <h2 class="section-title">📍 Zonas de Cobertura</h2>
+                    <p class="section-subtitle">Servicio a domicilio en todo el Valle de Aburrá</p>
+                </header>
+                <div class="coverage__badges">
+                    <span class="coverage__badge">Medellín</span>
+                    <span class="coverage__badge">Envigado</span>
+                    <span class="coverage__badge">Itagüí</span>
+                    <span class="coverage__badge">Sabaneta</span>
+                    <span class="coverage__badge">Bello</span>
+                    <span class="coverage__badge">La Estrella</span>
+                    <span class="coverage__badge">Copacabana</span>
+                    <span class="coverage__badge">Caldas</span>
+                    <span class="coverage__badge">Girardota</span>
+                    <span class="coverage__badge">Barbosa</span>
+                    <span class="coverage__badge">El Poblado</span>
+                    <span class="coverage__badge">Laureles</span>
+                    <span class="coverage__badge">Belén</span>
+                    <span class="coverage__badge">Estadio</span>
+                    <span class="coverage__badge">Centro</span>
+                </div>
+                <div class="coverage__cta">
+                    <p class="coverage__question">¿No ves tu zona? ¡Pregúntanos!</p>
+                    <a href="https://tinyurl.com/43vrm9dv?text=Hola!!!+%2ABaterias+thomas%2A.+Necesito+saber+si+tienen+cobertura+en+mi+zona"
+                        class="btn btn--whatsapp btn--lg" aria-label="Consultar cobertura por WhatsApp">
+                        Consultar Cobertura
+                    </a>
                 </div>
             </div>
         </section>
+
+        <!-- ==================== VENTAJAS COMPETITIVAS ==================== -->
         <section class="advantages" id="ventajas">
             <div class="container">
-                <h2 class="section-title">¿Por Qué Elegirnos?</h2>
-                <div class="advantages-grid">
-                    <div class="advantage-card">
-                        <div class="advantage-icon">⚡</div>
-                        <h3>Rapidez</h3>
-                        <p>Llegamos en máximo 30 minutos a cualquier punto de nuestra zona de cobertura.</p>
-                    </div>
-                    <div class="advantage-card">
-                        <div class="advantage-icon">👨‍🔧</div>
-                        <h3>Expertos</h3>
-                        <p>Técnicos certificados con años de experiencia. Diagnóstico gratuito.</p>
-                    </div>
-                    <div class="advantage-card">
-                        <div class="advantage-icon">♻️</div>
-                        <h3>Plan Retome</h3>
-                        <p>Te recibimos tu batería usada como parte de pago. Ahorra dinero.</p>
-                    </div>
+                <header class="section-header">
+                    <h2 class="section-title">¿Por Qué Elegirnos?</h2>
+                    <p class="section-subtitle">Más de 10 años de experiencia nos respaldan</p>
+                </header>
+                <div class="advantages__grid">
+                    <article class="advantage-card">
+                        <div class="advantage-card__icon">⚡</div>
+                        <h3 class="advantage-card__title">Rapidez Garantizada</h3>
+                        <p class="advantage-card__desc">Llegamos a tu ubicación en máximo 30 minutos. Tu tiempo es
+                            valioso, lo sabemos.</p>
+                    </article>
+                    <article class="advantage-card">
+                        <div class="advantage-card__icon">👨‍🔧</div>
+                        <h3 class="advantage-card__title">Técnicos Expertos</h3>
+                        <p class="advantage-card__desc">Personal capacitado que diagnostica e instala tu batería de
+                            forma profesional.</p>
+                    </article>
+                    <article class="advantage-card">
+                        <div class="advantage-card__icon">♻️</div>
+                        <h3 class="advantage-card__title">Plan Retome</h3>
+                        <p class="advantage-card__desc">Recibimos tu batería usada y te damos descuento. ¡Ahorra y cuida
+                            el planeta!</p>
+                    </article>
                 </div>
             </div>
         </section>
-        <section class="cta-section">
+
+        <!-- ==================== CTA FINAL ==================== -->
+        <section class="final-cta">
             <div class="container">
-                <h2>¿Necesitas una Batería Ahora?</h2>
-                <p>Estamos listos para ayudarte en cualquier momento</p>
-                <div class="cta-buttons">
-                    <a href="https://tinyurl.com/3essvphe?text=Hola!!!+%2ABaterias+thomas%2A.+Necesito+una+batería+urgente"
-                        class="btn btn-whatsapp btn-giant" aria-label="Solicitar batería por WhatsApp">Pedir por
-                        WhatsApp</a>
-                    <a href="https://tinyurl.com/bddsmcts" class="btn btn-call btn-giant"
-                        aria-label="Llamar ahora">Llamar
-                        Ahora</a>
+                <div class="final-cta__content">
+                    <h2 class="final-cta__title">¿Listo para Solucionar tu Problema?</h2>
+                    <p class="final-cta__text">No te quedes varado. Contáctanos ahora y resuelve tu emergencia en
+                        minutos.</p>
+                    <div class="final-cta__buttons">
+                        <a href="https://tinyurl.com/43vrm9dv?text=Hola!!!+%2ABaterias+thomas%2A.+Necesito+una+batería+URGENTE"
+                            class="btn btn--whatsapp btn--xl" aria-label="Contactar por WhatsApp urgente">
+                            <svg class="btn__icon" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true">
+                                <path
+                                    d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z" />
+                            </svg>
+                            Escribir por WhatsApp
+                        </a>
+                        <a href="https://tinyurl.com/yxa2h3fr" class="btn btn--call btn--xl" aria-label="Llamar ahora">
+                            <svg class="btn__icon" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true">
+                                <path
+                                    d="M6.62 10.79c1.44 2.83 3.76 5.14 6.59 6.59l2.2-2.2c.27-.27.67-.36 1.02-.24 1.12.37 2.33.57 3.57.57.55 0 1 .45 1 1V20c0 .55-.45 1-1 1-9.39 0-17-7.61-17-17 0-.55.45-1 1-1h3.5c.55 0 1 .45 1 1 0 1.25.2 2.45.57 3.57.11.35.03.74-.25 1.02l-2.2 2.2z" />
+                            </svg>
+                            Llamar Ahora
+                        </a>
+                    </div>
                 </div>
             </div>
         </section>
     </main>
+
+    <!-- ==================== FOOTER ==================== -->
     <footer class="footer">
         <div class="container">
-            <div class="footer-content">
-                <div class="footer-brand">
-                    <img src="imagenes/bateria_expres.webp" alt="Baterías Express" width="120" height="35"
-                        loading="lazy">
-                    <p>Tu solución en baterías a domicilio en Medellín.</p>
+            <div class="footer__content">
+                <div class="footer__info">
+                    <img src="imagenes/bateria_expres.webp" alt="Baterías Express" class="footer__logo" width="150"
+                        height="45">
+                    <p class="footer__desc">Servicio de baterías a domicilio en Medellín y el Valle de Aburrá. Rapidez,
+                        calidad y garantía.</p>
                 </div>
-                <div class="footer-contact">
-                    <h4>Contacto</h4>
+                <div class="footer__contact">
+                    <h4 class="footer__title">Contacto</h4>
+                    <p>📞 <a href="https://tinyurl.com/yxa2h3fr">Telefono</a></p>
+                    <p>📧 contacto@bateriasexpress.com</p>
                     <p>📍 Medellín, Colombia</p>
                 </div>
-                <div class="footer-hours">
-                    <h4>Horario</h4>
-                    <p>Servicio 24 horas</p>
-                    <p>Los 7 días de la semana</p>
+                <div class="footer__hours">
+                    <h4 class="footer__title">Horarios</h4>
+                    <p>Lunes a Domingo</p>
+                    <p><strong>24 Horas</strong></p>
+                    <p>🚨 Emergencias: Siempre disponibles</p>
                 </div>
             </div>
-            <div class="footer-bottom">
-                <p>&copy; 2025 Baterías Express. Todos los derechos reservados.</p>
+            <div class="footer__bottom">
+                <p>© 2025 Baterías Express. Todos los derechos reservados.</p>
+                <p>Baterías a domicilio Medellín | Batería carro Medellín</p>
             </div>
         </div>
     </footer>
-    <nav class="sticky-bottom-nav" aria-label="Acciones rápidas móvil">
-        <a href="https://tinyurl.com/3essvphe?text=Hola!!!+%2ABaterias+thomas%2A.+Necesito+una+batería"
-            class="sticky-btn sticky-whatsapp" aria-label="WhatsApp">
-            <svg width="24" height="24" viewBox="0 0 24 24" fill="currentColor">
+
+    <!-- ==================== STICKY BOTTOM NAV (MÓVIL) ==================== -->
+    <nav class="sticky-bottom" aria-label="Acciones rápidas móvil">
+        <a href="https://tinyurl.com/43vrm9dv?text=Hola!!!+%2ABaterias+thomas%2A.+Necesito+una+batería+AHORA"
+            class="sticky-bottom__btn sticky-bottom__btn--whatsapp" aria-label="Contactar por WhatsApp">
+            <svg class="sticky-bottom__icon" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true">
                 <path
                     d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z" />
             </svg>
             WhatsApp
         </a>
-        <a href="https://tinyurl.com/bddsmcts" class="sticky-btn sticky-call" aria-label="Llamar">
-            <svg width="24" height="24" viewBox="0 0 24 24" fill="currentColor">
+        <a href="https://tinyurl.com/yxa2h3fr" class="sticky-bottom__btn sticky-bottom__btn--call"
+            aria-label="Llamar ahora">
+            <svg class="sticky-bottom__icon" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true">
                 <path
-                    d="M20.01 15.38c-1.23 0-2.42-.2-3.53-.56a.977.977 0 00-1.01.24l-1.57 1.97c-2.83-1.35-5.48-3.9-6.89-6.83l1.95-1.66c.27-.28.35-.67.24-1.02-.37-1.11-.56-2.3-.56-3.53 0-.54-.45-.99-.99-.99H4.19C3.65 3 3 3.24 3 3.99 3 13.28 10.73 21 20.01 21c.71 0 .99-.63.99-1.18v-3.45c0-.54-.45-.99-.99-.99z" />
+                    d="M6.62 10.79c1.44 2.83 3.76 5.14 6.59 6.59l2.2-2.2c.27-.27.67-.36 1.02-.24 1.12.37 2.33.57 3.57.57.55 0 1 .45 1 1V20c0 .55-.45 1-1 1-9.39 0-17-7.61-17-17 0-.55.45-1 1-1h3.5c.55 0 1 .45 1 1 0 1.25.2 2.45.57 3.57.11.35.03.74-.25 1.02l-2.2 2.2z" />
             </svg>
-            Llamar
+            Llamar Ahora
         </a>
     </nav>
+
 </body>
 
+</html>
+<!-- ==================== HEADER STICKY ==================== -->
+<header class="header" id="header">
+    <div class="container header__container">
+        <a href="#" class="header__logo" target="_self">
+            <img src="imagenes/bateria_expres.webp" alt="Baterías Express Logo" width="150" height="45">
+        </a>
+        <nav class="header__nav">
+            <a href=" https://tinyurl.com/43vrm9dv?text=Hola!!!+%2ABaterias+thomas%2A.+Necesito+información+sobre+baterías"
+                class="btn btn--whatsapp btn--sm" aria-label="Contactar por WhatsApp">
+                <svg class="btn__icon" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true">
+                    <path
+                        d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z" />
+                </svg>
+                WhatsApp
+            </a>
+            <a href="tel:+573001234567" class="btn btn--call btn--sm" aria-label="Llamar ahora">
+                <svg class="btn__icon" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true">
+                    <path
+                        d="M6.62 10.79c1.44 2.83 3.76 5.14 6.59 6.59l2.2-2.2c.27-.27.67-.36 1.02-.24 1.12.37 2.33.57 3.57.57.55 0 1 .45 1 1V20c0 .55-.45 1-1 1-9.39 0-17-7.61-17-17 0-.55.45-1 1-1h3.5c.55 0 1 .45 1 1 0 1.25.2 2.45.57 3.57.11.35.03.74-.25 1.02l-2.2 2.2z" />
+                </svg>
+                Llamar
+            </a>
+        </nav>
+    </div>
+</header>
+
+<main>
+    <!-- ==================== HERO SECTION ==================== -->
+    <section class="hero" id="hero">
+        <div class="hero__overlay"></div>
+        <div class="container hero__container">
+            <div class="hero__content">
+                <span class="hero__badge">🚗 Servicio 24/7 • Llegamos en 30 Min</span>
+                <h1 class="hero__title">¿Sin Batería? ¿Tu carro no Enciende?</h1>
+                <h2 class="hero__subtitle">
+                    Baterías De Carro a Domicilio en <strong>Medellín, Envigado, Itagüí</strong> y todo el Valle de
+                    Aburrá.
+                    <span class="hero__highlight">Llegamos en 30 minutos. Instalación Gratis.</span>
+                </h2>
+                <div class="hero__ctas">
+                    <a href=" https://tinyurl.com/43vrm9dv?text=Hola!!!+%2ABaterias+thomas%2A.+Necesito+una+batería+urgente"
+                        class="btn btn--whatsapp btn--xl" aria-label="Pedir batería por WhatsApp">
+                        <svg class="btn__icon" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true">
+                            <path
+                                d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z" />
+                        </svg>
+                        Pedir por WhatsApp
+                    </a>
+                    <a href="tel:+573001234567" class="btn btn--call btn--xl"
+                        aria-label="Llamar ahora para pedir batería">
+                        <svg class="btn__icon" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true">
+                            <path
+                                d="M6.62 10.79c1.44 2.83 3.76 5.14 6.59 6.59l2.2-2.2c.27-.27.67-.36 1.02-.24 1.12.37 2.33.57 3.57.57.55 0 1 .45 1 1V20c0 .55-.45 1-1 1-9.39 0-17-7.61-17-17 0-.55.45-1 1-1h3.5c.55 0 1 .45 1 1 0 1.25.2 2.45.57 3.57.11.35.03.74-.25 1.02l-2.2 2.2z" />
+                        </svg>
+                        Llamar Ahora
+                    </a>
+                </div>
+                <p class="hero__urgency">⚡ +500 clientes atendidos este mes</p>
+            </div>
+            <div class="hero__image">
+                <img src="imagenes/bateria_expres.webp" alt="Batería de carro a domicilio Medellín" width="500"
+                    height="400">
+            </div>
+        </div>
+    </section>
+
+    <!-- ==================== BARRA DE CONFIANZA ==================== -->
+    <section class="trust-bar" aria-label="Beneficios del servicio">
+        <div class="container">
+            <ul class="trust-bar__list">
+                <li class="trust-bar__item">
+                    <div class="trust-bar__icon">🔧</div>
+                    <span class="trust-bar__text">Instalación <strong>GRATIS</strong></span>
+                </li>
+                <li class="trust-bar__item">
+                    <div class="trust-bar__icon">🛡️</div>
+                    <span class="trust-bar__text">Garantía <strong>12-24 Meses</strong></span>
+                </li>
+                <li class="trust-bar__item">
+                    <div class="trust-bar__icon">💳</div>
+                    <span class="trust-bar__text">Pago <strong>Contra Entrega</strong></span>
+                </li>
+                <li class="trust-bar__item">
+                    <div class="trust-bar__icon">⏰</div>
+                    <span class="trust-bar__text">Servicio <strong>24/7</strong></span>
+                </li>
+            </ul>
+        </div>
+    </section>
+
+    <!-- ==================== CATÁLOGO DE SERVICIOS ==================== -->
+    <section class="services" id="servicios">
+        <div class="container">
+            <header class="section-header">
+                <h2 class="section-title">Baterías para Todo Tipo de Vehículo</h2>
+                <p class="section-subtitle">Selecciona tu vehículo y cotiza en segundos</p>
+            </header>
+            <div class="services__grid">
+                <!-- Autos -->
+                <article class="service-card">
+                    <div class="service-card__image">
+                        <img src="imagenes/bateria_expres.webp" alt="Baterías para autos" width="300" height="200"
+                            loading="lazy">
+                    </div>
+                    <div class="service-card__content">
+                        <h3 class="service-card__title">🚗 Autos</h3>
+                        <p class="service-card__desc">Baterías para Chevrolet, Renault, Mazda, Kia, Hyundai y más.</p>
+                        <span class="service-card__price">Baterías <strong>Premium</strong></span>
+                        <a href=" https://tinyurl.com/43vrm9dv?text=Hola!!!+%2ABaterias+thomas%2A.+Necesito+una+batería+para+mi+AUTO"
+                            class="btn btn--whatsapp btn--md" aria-label="Cotizar batería para auto">
+                            Cotizar Ahora
+                        </a>
+                    </div>
+                </article>
+                <!-- Camionetas -->
+                <article class="service-card">
+                    <div class="service-card__image">
+                        <img src="imagenes/bateria_expres.webp" alt="Baterías para camionetas" width="300" height="200"
+                            loading="lazy">
+                    </div>
+                    <div class="service-card__content">
+                        <h3 class="service-card__title">🚙 Camionetas</h3>
+                        <p class="service-card__desc">Baterías de alta capacidad para SUV y camionetas 4x4.</p>
+                        <span class="service-card__price">Baterías <strong>Premium</strong></span>
+                        <a href=" https://tinyurl.com/43vrm9dv?text=Hola!!!+%2ABaterias+thomas%2A.+Necesito+una+batería+para+mi+CAMIONETA"
+                            class="btn btn--whatsapp btn--md" aria-label="Cotizar batería para camioneta">
+                            Cotizar Ahora
+                        </a>
+                    </div>
+                </article>
+                <!-- Camiones -->
+                <article class="service-card">
+                    <div class="service-card__image">
+                        <img src="imagenes/bateria_expres.webp" alt="Baterías para camiones" width="300" height="200"
+                            loading="lazy">
+                    </div>
+                    <div class="service-card__content">
+                        <h3 class="service-card__title">🚛 Camiones</h3>
+                        <p class="service-card__desc">Baterías pesadas para transporte y vehículos comerciales.</p>
+                        <span class="service-card__price">Baterías <strong>Premium</strong></span>
+                        <a href=" https://tinyurl.com/43vrm9dv?text=Hola!!!+%2ABaterias+thomas%2A.+Necesito+una+batería+para+mi+CAMIÓN"
+                            class="btn btn--whatsapp btn--md" aria-label="Cotizar batería para camión">
+                            Cotizar Ahora
+                        </a>
+                    </div>
+                </article>
+                <!-- Motos -->
+                <article class="service-card">
+                    <div class="service-card__image">
+                        <img src="imagenes/bateria_expres.webp" alt="Baterías para motos" width="300" height="200"
+                            loading="lazy">
+                    </div>
+                    <div class="service-card__content">
+                        <h3 class="service-card__title">🏍️ Motos</h3>
+                        <p class="service-card__desc">Baterías para todo tipo de motocicletas y scooters.</p>
+                        <span class="service-card__price">Baterías <strong>Premium</strong></span>
+                        <a href=" https://tinyurl.com/43vrm9dv?text=Hola!!!+%2ABaterias+thomas%2A.+Necesito+una+batería+para+mi+MOTO"
+                            class="btn btn--whatsapp btn--md" aria-label="Cotizar batería para moto">
+                            Cotizar Ahora
+                        </a>
+                    </div>
+                </article>
+            </div>
+        </div>
+    </section>
+
+    <!-- ==================== MARCAS ==================== -->
+    <section class="brands" id="marcas" aria-label="Marcas de baterías disponibles">
+        <div class="container">
+            <header class="section-header">
+                <h2 class="section-title">Trabajamos con las Mejores Marcas</h2>
+                <p class="section-subtitle">Distribuidor autorizado - Garantía de fábrica</p>
+            </header>
+            <div class="brands__grid">
+                <div class="brand-logo">
+                    <img src="imagenes/mac_bateria_medellin.webp" alt="Baterías MAC" width="120" height="60"
+                        loading="lazy">
+                </div>
+                <div class="brand-logo">
+                    <img src="imagenes/mac_bateria_medellin.webp" alt="Baterías Duncan" width="120" height="60"
+                        loading="lazy">
+                </div>
+                <div class="brand-logo">
+                    <img src="imagenes/mac_bateria_medellin.webp" alt="Baterías Varta" width="120" height="60"
+                        loading="lazy">
+                </div>
+                <div class="brand-logo">
+                    <img src="imagenes/mac_bateria_medellin.webp" alt="Baterías Willard" width="120" height="60"
+                        loading="lazy">
+                </div>
+                <div class="brand-logo">
+                    <img src="imagenes/mac_bateria_medellin.webp" alt="Baterías AC Delco" width="120" height="60"
+                        loading="lazy">
+                </div>
+                <div class="brand-logo">
+                    <img src="imagenes/mac_bateria_medellin.webp" alt="Baterías Bosch" width="120" height="60"
+                        loading="lazy">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ==================== ZONA DE COBERTURA ==================== -->
+    <section class="coverage" id="cobertura">
+        <div class="container">
+            <header class="section-header">
+                <h2 class="section-title">📍 Zonas de Cobertura</h2>
+                <p class="section-subtitle">Servicio a domicilio en todo el Valle de Aburrá</p>
+            </header>
+            <div class="coverage__badges">
+                <span class="coverage__badge">Medellín</span>
+                <span class="coverage__badge">Envigado</span>
+                <span class="coverage__badge">Itagüí</span>
+                <span class="coverage__badge">Sabaneta</span>
+                <span class="coverage__badge">Bello</span>
+                <span class="coverage__badge">La Estrella</span>
+                <span class="coverage__badge">Copacabana</span>
+                <span class="coverage__badge">Caldas</span>
+                <span class="coverage__badge">Girardota</span>
+                <span class="coverage__badge">Barbosa</span>
+                <span class="coverage__badge">El Poblado</span>
+                <span class="coverage__badge">Laureles</span>
+                <span class="coverage__badge">Belén</span>
+                <span class="coverage__badge">Estadio</span>
+                <span class="coverage__badge">Centro</span>
+            </div>
+            <div class="coverage__cta">
+                <p class="coverage__question">¿No ves tu zona? ¡Pregúntanos!</p>
+                <a href=" https://tinyurl.com/43vrm9dv?text=Hola!!!+%2ABaterias+thomas%2A.+Necesito+saber+si+tienen+cobertura+en+mi+zona"
+                    class="btn btn--whatsapp btn--lg" aria-label="Consultar cobertura por WhatsApp">
+                    Consultar Cobertura
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- ==================== VENTAJAS COMPETITIVAS ==================== -->
+    <section class="advantages" id="ventajas">
+        <div class="container">
+            <header class="section-header">
+                <h2 class="section-title">¿Por Qué Elegirnos?</h2>
+                <p class="section-subtitle">Más de 10 años de experiencia nos respaldan</p>
+            </header>
+            <div class="advantages__grid">
+                <article class="advantage-card">
+                    <div class="advantage-card__icon">⚡</div>
+                    <h3 class="advantage-card__title">Rapidez Garantizada</h3>
+                    <p class="advantage-card__desc">Llegamos a tu ubicación en máximo 30 minutos. Tu tiempo es valioso,
+                        lo sabemos.</p>
+                </article>
+                <article class="advantage-card">
+                    <div class="advantage-card__icon">👨‍🔧</div>
+                    <h3 class="advantage-card__title">Técnicos Expertos</h3>
+                    <p class="advantage-card__desc">Personal capacitado que diagnostica e instala tu batería de forma
+                        profesional.</p>
+                </article>
+                <article class="advantage-card">
+                    <div class="advantage-card__icon">♻️</div>
+                    <h3 class="advantage-card__title">Plan Retome</h3>
+                    <p class="advantage-card__desc">Recibimos tu batería usada y te damos descuento. ¡Ahorra y cuida el
+                        planeta!</p>
+                </article>
+            </div>
+        </div>
+    </section>
+
+    <!-- ==================== CTA FINAL ==================== -->
+    <section class="final-cta">
+        <div class="container">
+            <div class="final-cta__content">
+                <h2 class="final-cta__title">¿Listo para Solucionar tu Problema?</h2>
+                <p class="final-cta__text">No te quedes varado. Contáctanos ahora y resuelve tu emergencia en minutos.
+                </p>
+                <div class="final-cta__buttons">
+                    <a href=" https://tinyurl.com/43vrm9dv?text=Hola!!!+%2ABaterias+thomas%2A.+Necesito+una+batería+URGENTE"
+                        class="btn btn--whatsapp btn--xl" aria-label="Contactar por WhatsApp urgente">
+                        <svg class="btn__icon" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true">
+                            <path
+                                d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z" />
+                        </svg>
+                        Escribir por WhatsApp
+                    </a>
+                    <a href="tel:+573001234567" class="btn btn--call btn--xl" aria-label="Llamar ahora">
+                        <svg class="btn__icon" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true">
+                            <path
+                                d="M6.62 10.79c1.44 2.83 3.76 5.14 6.59 6.59l2.2-2.2c.27-.27.67-.36 1.02-.24 1.12.37 2.33.57 3.57.57.55 0 1 .45 1 1V20c0 .55-.45 1-1 1-9.39 0-17-7.61-17-17 0-.55.45-1 1-1h3.5c.55 0 1 .45 1 1 0 1.25.2 2.45.57 3.57.11.35.03.74-.25 1.02l-2.2 2.2z" />
+                        </svg>
+                        Llamar Ahora
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+</main>
+
+<!-- ==================== FOOTER ==================== -->
+<footer class="footer">
+    <div class="container">
+        <div class="footer__content">
+            <div class="footer__info">
+                <img src="imagenes/bateria_expres.webp" alt="Baterías Express" class="footer__logo" width="150"
+                    height="45">
+                <p class="footer__desc">Servicio de baterías a domicilio en Medellín y el Valle de Aburrá. Rapidez,
+                    calidad y garantía.</p>
+            </div>
+            <div class="footer__contact">
+                <h4 class="footer__title">Contacto</h4>
+                <p>📞 <a href="tel:+573001234567">Telefono</a></p>
+                <p>📧 contacto@bateriasexpress.com</p>
+                <p>📍 Medellín, Colombia</p>
+            </div>
+            <div class="footer__hours">
+                <h4 class="footer__title">Horarios</h4>
+                <p>Lunes a Domingo</p>
+                <p><strong>24 Horas</strong></p>
+                <p>🚨 Emergencias: Siempre disponibles</p>
+            </div>
+        </div>
+        <div class="footer__bottom">
+            <p>© 2025 Baterías Express. Todos los derechos reservados.</p>
+            <p>Baterías a domicilio Medellín | Batería carro Medellín</p>
+        </div>
+    </div>
+</footer>
+
+<!-- ==================== STICKY BOTTOM NAV (MÓVIL) ==================== -->
+<nav class="sticky-bottom" aria-label="Acciones rápidas móvil">
+    <a href=" https://tinyurl.com/43vrm9dv?text=Hola!!!+%2ABaterias+thomas%2A.+Necesito+una+batería+AHORA"
+        class="sticky-bottom__btn sticky-bottom__btn--whatsapp" aria-label="Contactar por WhatsApp">
+        <svg class="sticky-bottom__icon" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true">
+            <path
+                d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z" />
+        </svg>
+        WhatsApp
+    </a>
+    <a href="tel:+573001234567" class="sticky-bottom__btn sticky-bottom__btn--call" aria-label="Llamar ahora">
+        <svg class="sticky-bottom__icon" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true">
+            <path
+                d="M6.62 10.79c1.44 2.83 3.76 5.14 6.59 6.59l2.2-2.2c.27-.27.67-.36 1.02-.24 1.12.37 2.33.57 3.57.57.55 0 1 .45 1 1V20c0 .55-.45 1-1 1-9.39 0-17-7.61-17-17 0-.55.45-1 1-1h3.5c.55 0 1 .45 1 1 0 1.25.2 2.45.57 3.57.11.35.03.74-.25 1.02l-2.2 2.2z" />
+        </svg>
+        Llamar Ahora
+    </a>
+</nav>
+
+</body>
 
 </html>
